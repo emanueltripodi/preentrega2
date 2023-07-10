@@ -1,3 +1,6 @@
+// link figma //
+https://www.figma.com/file/0GHQEoE13R5gJoVF7ue27C/proyecto1?type=design&node-id=0-1&mode=design&t=bDbkHO8tGzktx1v2-0
+
 //COMO EMPEZAR A COMPILAR SASS//
 
 1. Abrir la consola en esta carpeta con ctrl+ñ
