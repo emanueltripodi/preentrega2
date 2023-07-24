@@ -1,0 +1,22 @@
+.footer-promo{
+    display: flex;
+    background-color: #F6F7C1;
+    height: 400px;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.footer-promo img{
+    height: 125px;
+}
+.input{
+    padding: 0px 300px 60px 300px;
+    width: 600px;
+}
+.form{
+    padding: 0px 300px 60px 300px;
+}
+main{
+    min-height: 80vh;
+}
