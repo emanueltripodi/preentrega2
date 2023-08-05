@@ -1,0 +1,131 @@
+@media (min-width: 320px) {
+    .main article img {
+        width: 600px;
+    }
+
+    .main article p {
+        width: 600px;
+    }
+    .card {
+        flex-direction: row;
+    }
+    .card-body {
+        font-size: xx-small;
+    }
+    h5.card-title {
+        font-size: small;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 1044px) {
+
+    /*GRILLA*/
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr .5fr;
+        grid-template-areas:
+            "main aside"
+        ;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+
+}
+
+
+/* main */
+
+.flex-padre h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.flex-padre {
+    background-color: #BEF0CB;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+
+}
+
+.flex-padre img {
+    width: 150px;
+    display: flex;
+}
+
+
+.footer {
+    background-color: #F6F7C1;
+    height: 300px;
+}
+
+.footer img {
+    width: 120px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-direction: column;
+    background-color: #F6F7C1;
+}
+
+.flex-css {
+    background-color: #BEF0CB;
+    border: 2px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 700px;
+    align-content: center;
+}
+
+
+.flex-css div {
+    background-color: #8cffab;
+    border: 2px #3e6665 solid;
+    padding: 15px;
+    /* width: 150px; */
+    /* height: 150px; */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-css img {
+    width: 125px;
+}
+
+main h1 {
+    text-align: center;
+    text-decoration: underline;
+    background-color: #BEF0CB;
+    font-family: 'Tilt Prism', cursive;
+
+
+}
+
+.flex-promo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #BEF0CB;
+
+
+}
+
+.flex-promo img {
+    width: 120px;
+}
+
+.grilla p {
+    display: flex;
+}

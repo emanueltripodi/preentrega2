@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #B4E4FF;
+    
+}
+.header img{
+    width: 150px;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 350px;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
+}

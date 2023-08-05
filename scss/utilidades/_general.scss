@@ -1,0 +1,36 @@
+footer{
+    padding: 50px;
+}
+.footer-promo{
+    display: flex;
+    background-color: #F6F7C1;
+    height: 400px;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.footer-promo img{
+    height: 125px;
+}
+.intro{
+    margin: auto;
+    width: 850px;
+}
+.animacion p{
+    margin: auto;
+    width: 850px;
+}
+main{
+    min-width: 100px;
+    background-color: #BEF0CB;
+}
+.input{
+    padding: 15px;
+    background-color: #BEF0CB;
+    img{
+        width: 150px;
+    }
+    margin: auto;
+    width: 850px;
+}
