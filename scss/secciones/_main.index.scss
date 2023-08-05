@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @media (min-width: 320px) {
+=======
+@media (min-width: 769px) {
+>>>>>>> 0312082f91bdfbb59c715e4ace208cc39cc1be31
     .main article img {
         width: 600px;
     }
@@ -6,6 +10,7 @@
     .main article p {
         width: 600px;
     }
+<<<<<<< HEAD
     .card {
         flex-direction: row;
     }
@@ -16,6 +21,8 @@
         font-size: small;
         text-align: center;
     }
+=======
+>>>>>>> 0312082f91bdfbb59c715e4ace208cc39cc1be31
 }
 
 
@@ -34,6 +41,13 @@
         grid-area: main;
     }
 
+<<<<<<< HEAD
+=======
+    aside {
+        display: block;
+        grid-area: aside;
+    }
+>>>>>>> 0312082f91bdfbb59c715e4ace208cc39cc1be31
 
 }
 
@@ -57,6 +71,63 @@
     display: flex;
 }
 
+<<<<<<< HEAD
+=======
+.img1 {
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 100px;
+}
+
+.img2 {
+    height: 200px;
+    float: right;
+    margin-right: 10px;
+    padding-top: 100px;
+}
+
+.img3 {
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    padding-top: 100px;
+}
+
+p {
+    margin-top: 50px;
+    margin-bottom: 1rem;
+    display: grid;
+    align-items: stretch;
+    justify-items: stretch;
+    justify-content: end;
+    align-content: space-around;
+    padding: 100px;
+}
+
+.p2 {
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 1rem;
+    display: grid;
+    align-items: stretch;
+    justify-items: stretch;
+    justify-content: end;
+    align-content: space-around;
+}
+
+.p3 {
+    padding: 100px;
+    text-align: left;
+    width: 500px;
+    font-size: large;
+}
+
+.promo-img {
+    width: 250px;
+    margin: auto;
+}
+>>>>>>> 0312082f91bdfbb59c715e4ace208cc39cc1be31
 
 .footer {
     background-color: #F6F7C1;
@@ -87,21 +158,38 @@
     align-content: center;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0312082f91bdfbb59c715e4ace208cc39cc1be31
 .flex-css div {
     background-color: #8cffab;
     border: 2px #3e6665 solid;
     padding: 15px;
+<<<<<<< HEAD
     /* width: 150px; */
     /* height: 150px; */
     overflow: hidden;
     display: flex;
     justify-content: space-around;
     align-items: center;
+=======
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+>>>>>>> 0312082f91bdfbb59c715e4ace208cc39cc1be31
 }
 
 .flex-css img {
     width: 125px;
+<<<<<<< HEAD
+=======
+    padding: 0px;
+    align-items: center;
+    justify-items: center;
+>>>>>>> 0312082f91bdfbb59c715e4ace208cc39cc1be31
 }
 
 main h1 {
@@ -126,6 +214,15 @@ main h1 {
     width: 120px;
 }
 
+<<<<<<< HEAD
 .grilla p {
     display: flex;
 }
+=======
+.intro {
+   display: flex;
+    padding: 0px 300px 60px 300px;
+    font-size: medium;
+    text-align: center;
+}
+>>>>>>> 0312082f91bdfbb59c715e4ace208cc39cc1be31
